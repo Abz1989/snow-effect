@@ -1,3 +1,17 @@
 body {
-    background: purple;
+    background: #039ddfd3;
+}
+
+.fa-circle-o {
+    /* animation: fall 3s linear forwards; */
+    color: white;
+    font-weight: 300;
+    position: absolute;
+   /* top: -20px; */
+}
+
+@keyframes fall {
+    to {
+        transform: translateY(105vh);
+    }
 }
