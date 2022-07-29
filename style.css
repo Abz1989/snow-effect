@@ -1,13 +1,14 @@
 body {
     background: #039ddfd3;
+    overflow: hidden;
 }
 
 .fa-snowflake {
-    /* animation: fall 3s linear forwards; */
+    animation: fall 3s linear forwards; 
     color: white;
     font-weight: 300;
     position: absolute;
-   /* top: -20px; */
+   top: -20px;
 }
 
 @keyframes fall {
