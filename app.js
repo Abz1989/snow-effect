@@ -1,11 +1,11 @@
-createBubble();
+createSnowFlake();
 
-function createBubble() {
-    const bubble_pop = document.createElement('i');
-    bubble_pop.classList.add('fa');
-    bubble_pop.classList.add('fa-circle-o');
-    bubble_pop.style.left = Math.random() * window.innerWidth + 'px';
+function createSnowFlake() {
+    const snow_flake = document.createElement('i');
+    snow_flake.classList.add('.fa-solid');
+    snow_flake.classList.add('.fa-snowflake');
+    snow_flake.style.left = Math.random() * window.innerWidth + 'px';
 
 
-    document.body.append.Child(bubble_pop);
+    body.append.Child(snow_flake);
 }
